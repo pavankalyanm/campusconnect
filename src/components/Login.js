@@ -56,9 +56,7 @@ const Login = () => {
       <Header/>
       <Container className="card border-dark mb-3" style={{ marginTop: "62px", width: "940px", height: '400px', backgroundColor: "#F7F4ED", borderRadius: '10px', border: '1px #D7D7D7', display: 'flex', alignItems: 'center' }}>
         <div className="w-100" style={{ maxWidth: "400px" }}>
-          <div className="logo text-center">
-            <img src={logo} alt="Logo" style={{marginTop:'15px', width: '100px', height: 'auto'}}/>
-          </div>
+          
           <div className="p-4 box">
             <h4 className="mb-3 text-center">Login</h4>
             {error && <Alert variant="danger">{error}</Alert>}
